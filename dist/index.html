@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MovieMania</title>
+</head>
+
+<body class="">
+    <!-- -----navbar----- -->
+    <navbar>
+        <div class="navbar min-w-full bg-blue-950 text-white flex 
+        items-center justify-between h-14">
+            <div class="text-white logo font-bold m-2 md:m-4 text-sm md:text-xl w-1/2 flex ">
+                <h1 class="font-extrabold">MovieMania</h1>
+            </div>
+                <button id="themeToggle" class="bg-blue-600 rounded-lg text-[7px] md:text-sm font-semibold 
+                p-1 md:px-3 md:py-2">Switch to Dark Mode</button>
+            <div class="search-container m-2 md:m-4 ">
+                <form action="" class="flex items-center justify-center space-x-2">
+                    <input type="text" placeholder="search movie name" 
+                    class="inputBox p-1 rounded-sm text-black text-[10px] md:text-sm w-[100px] md:w-[166px]"/>
+                    <button class="searchBtn bg-yellow-300 text-black text-[9px] md:text-sm
+                    p-1 font-medium rounded-sm">search</button>
+                </form>
+            </div>
+        </div>
+    </navbar>
+    <!-- -----navbar----- -->
+
+    <!-- -----main section for movie----- -->
+    <main class="">
+        <section class="flex justify-center items-center">
+            <div class="movie-container mt-16 w-4/5 h-[400px]  
+            flex flex-col md:flex-row  justify-center items-center gap-x-6   text-sm md:text-lg">
+                <h2 class="heading font-bold text-xl">Search movie details here</h2>
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
